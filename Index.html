@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<script src="https://use.fontawesome.com/7d66257d29.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script type='text/javascript' src="index.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lobster|Play|Raleway" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="index.css" />
+
+<head>
+    <title> Robert Ginter Portfolio </title>
+</head>
+
+<body>
+    <div class="container-fluid">
+    <div class="row">
+    <div id="sidebar">
+        <div class="sidebar-left">
+
+            <a class="company-logo" href="#">Logo</a>
+
+            <div class="sidebar-links">
+                <a class="link-blue" href="#navAbout"><i class="fa fa-info-circle"></i>About</a>
+                <a class="link-red" href="#navTools"><i class="fa fa-wrench"></i>Tools</a>
+                <a class="link-yellow" href="#navUx"><i class="fa fa-users"></i>UX</a>
+                <a class="link-green" href="#navDesign"><i class="fa fa-paint-brush"></i>Design</a>
+                <a class="link-cyan" href="#navCode"><i class="fa fa-code"></i>Code</a>
+                <a class="link-orange" href="#navContact"><i class="fa fa-address-book"></i>Contact</a>
+            </div>
+
+        </div>
+    </div>
+    <div >
+	<div class="main-content">
+		<div class="container-fluid box" id="navAbout">
+<h1 class="text-center heading">About</h1>
+            <h1 class="text-center" id="hello">Hello, my name is Robert and I'm a</h1>
+            <h1 class="text-center" id="UXDes">UX/UI Designer</h1>
+		</div>
+
+        <div class="container-fluid box text-center" id="navTools">
+<h1 class="text-center heading">Tools</h1>
+        <div class="row">
+             <img src="Icons/Tools/Photoshop.png" class="icons center">
+             <img src="Icons/Tools/Photoshop.png" class="icons center">
+            <img src="Icons/Tools/Photoshop.png" class="icons center">
+		</div>
+        </div>
+        <div class="container-fluid box" id="navUx">
+<h1 class="text-center heading">UX</h1>
+		</div>
+        <div class="container-fluid box" id="navDesign">
+<h1 class="text-center heading">Design</h1>
+	</div>
+        <div class="container-fluid box" id="navCode">
+<h1 class="text-center heading">Code</h1>
+	</div>
+         <div class="container-fluid box" id="navContact">
+<h1 class="text-center heading">Contact</h1>
+	</div>
+        </div>
+        </div>
+    </div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+
+		$(function () {
+
+			var links = $('.sidebar-links > a');
+
+			links.on('click', function () {
+
+				links.removeClass('selected');
+				$(this).addClass('selected');
+
+			})
+		});
+
+	</script>
+    </div>
+</body>
+
+</html>
