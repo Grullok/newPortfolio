@@ -1,0 +1,3 @@
+Design: Adobe Photoshop, Illustrator, Adobe InDesign
+UX: Sketch, InVision, Adobe Experience Design
+Development: HTML, CSS, Javascript
