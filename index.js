@@ -1,3 +1,4 @@
+document.getElementById("changeText").innerHTML = "It Works!";
 $(window).resize(function() {
 	var path = $(this);
 	var contW = path.width();
@@ -25,4 +26,17 @@ $(document).ready(function() {
 			document.getElementsByClassName("sidebar-toggle")[0].style.left="200px";
 		}
 	});
-});
+
+var text = ["UX DESIGN", "UI DESIGN", "GRAPHIC DESIGN", "FRONT-END DEVELOPMENT"];
+var i = 0;
+var elem = document.getElementById("changeText");
+setInterval(change, 1000);
+
+function change() {
+  elem.innerHTML = text[i];
+  i++;
+  if (i >= text.length) {
+    i = 0;
+  }
+};
+

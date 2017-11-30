@@ -58,7 +58,7 @@ h3 {
 
 .sidebar-left .sidebar-links a i.fa {
     display: block;
-    font-size: 35px;
+    font-size: 50px;
     margin-bottom: 5px;
 }
 
@@ -71,51 +71,51 @@ h3 {
 }
 
 .sidebar-left .sidebar-links a.link-blue {
-    border-color: #487db2;
+    border-color: lightgray;
 }
 
 .sidebar-left .sidebar-links a.link-blue i.fa {
-    color: #487db2;
+    color: lightgray;
 }
 
 .sidebar-left .sidebar-links a.link-red {
-    border-color: #da4545;
+    border-color: lightgray;
 }
 
 .sidebar-left .sidebar-links a.link-red i.fa {
-    color: #da4545;
+    color: lightgray;
 }
 
 .sidebar-left .sidebar-links a.link-cyan {
-    border-color: #00FFFF;
+    border-color: lightgray;
 }
 
 .sidebar-left .sidebar-links a.link-cyan i.fa {
-    color: #00FFFF;
+    color: lightgray;
 }
 
 .sidebar-left .sidebar-links a.link-yellow {
-    border-color: #d0d237;
+    border-color: lightgray;
 }
 
 .sidebar-left .sidebar-links a.link-yellow i.fa {
-    color: #d0d237;
+    color: lightgray;
 }
 
 .sidebar-left .sidebar-links a.link-green {
-    border-color: #86be2e;
+    border-color: lightgray;
 }
 
 .sidebar-left .sidebar-links a.link-green i.fa {
-    color: #86be2e;
+    color: lightgray;
 }
 
 .sidebar-left .sidebar-links a.link-orange {
-    border-color: #FFA600;
+    border-color: lightgray;
 }
 
 .sidebar-left .sidebar-links a.link-orange i.fa {
-    color: #FFA600;
+    color: lightgray;
 }
 
 @media (max-width: 900px) {
@@ -265,7 +265,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
     margin-left: 6%;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   /* repeat = as many times as you can fit */
   /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
   /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
@@ -289,7 +289,7 @@ h2 {
 .wrap2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   /* repeat = as many times as you can fit */
   /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
   /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
@@ -322,10 +322,6 @@ h2 {
     margin-left: 13%;
 }
 
-.uxicon {
-    border-radius: 30px;
-}
-
 #navDesign {
     background-color:cadetblue;
 }
@@ -340,3 +336,40 @@ h2 {
 #navContact {
     background-color: crimson;
 } 
+#UXDes {
+    font-family: Play;
+}
+.examples {
+    margin-top: 2em;
+}
+.example {
+    margin-top: 1em;
+}
+#animationText {
+    font-family: Play;
+}
+#offers {
+    margin-bottom: 3em;
+}
+.uxicon {
+    border-radius: 30px;
+    background:#eee;
+    text-decoration:none;
+    color:#333;
+    font-family:Arial, sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    padding:5px 7px;
+    border:5px solid #aaa;
+    cursor:default;
+}
+
+.uxicon:hover {
+    background-color:#f2f2f2;
+    border-color:#888;
+    box-shadow:0 0 50px black;
+}
+
+.uxicon:active {
+    height:50%;
+}

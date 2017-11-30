@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Blog/Newspaper Wirefrane </title>
+    <script src="https://use.fontawesome.com/7d66257d29.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script type='text/javascript' src="index.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lobster|Play|Raleway|Comfortaa" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="wireframe.css" />
+
+<head>
+<body>
+             <div id="sidebar">
+                <div class="sidebar-left">
+
+                    <a><img src="logo-mini.png" id="logo"/></a>
+
+                    <div class="sidebar-links">
+                        <a class="link-blue" href="Index.html#navAbout"><i class="fa fa-info-circle"></i>About</a>
+                        <a class="link-red" href="Index.html#navTools"><i class="fa fa-wrench"></i>Skillset</a>
+                        <a class="link-yellow" href="Index.html#navUx"><i class="fa fa-users"></i>UX Design</a>
+                         <a class="link-green" href="Index.html#navDesign"><i class="fa fa-paint-brush"></i>Graphic Design</a>
+                        <a class="link-cyan" href="Index.html#navCode"><i class="fa fa-code"></i>Front-end</a>
+                        <a class="link-orange" href="Index.html#navContact"><i class="fa fa-address-book"></i>Contact</a>
+                    </div>
+
+                </div>
+            </div>
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   
+    <script>
+        $(function() {
+
+            var links = $('.sidebar-links > a');
+
+            links.on('click', function() {
+
+                links.removeClass('selected');
+                $(this).addClass('selected');
+
+            })
+        });
+    </script>
+    <div  style="margin-left: 21%;">
+<img src="Images/Front.png">
+    <br>
+    <hr>
+    <br>
+    <img src="Images/Topic.png">
+    
+     <br>
+    <hr>
+    <br>
+    <img src="Images/Article.png">
+    </div>
+</body>
+</head>
+</html>

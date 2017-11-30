@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+<script src="https://use.fontawesome.com/7d66257d29.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script type='text/javascript' src="index.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lobster|Play|Raleway|Comfortaa" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="wireframe.css" />
+
+<head>
+    <title> Wireframes </title>
+</head>
+
+<body>
+     <div id="sidebar">
+                <div class="sidebar-left">
+
+                    <img src="logo-mini.png">
+
+                    <div class="sidebar-links">
+                        <a class="link-blue" href="Index.html#navAbout"><i class="fa fa-info-circle"></i>About</a>
+                        <a class="link-red" href="Index.html#navTools"><i class="fa fa-wrench"></i>Skillset</a>
+                        <a class="link-yellow" href="Index.html#navUx"><i class="fa fa-users"></i>UX Design</a>
+                        <a class="link-green" href="Index.html#navDesign"><i class="fa fa-paint-brush"></i>Graphic Design</a>
+                        <a class="link-cyan" href="Index.html#navCode"><i class="fa fa-code"></i>Front-end</a>
+                        <a class="link-orange" href="Index.html#navContact"><i class="fa fa-address-book"></i>Contact</a>
+                    </div>
+
+                </div>
+            </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+        $(function() {
+
+            var links = $('.sidebar-links > a');
+
+            links.on('click', function() {
+
+                links.removeClass('selected');
+                $(this).addClass('selected');
+
+            })
+        });
+    </script>
+    <div class="main-content">
+        <div>
+            <h1 class="text-center"> Wireframes</h1>
+            <br>
+            <br>
+            <br>
+            <h3 class="" id="wireframeExp"> I have some experience creating both low- and high fidelity wireframes for websites using either Adobe Experience Design or Balsamiq.</h3>
+               <br>
+            <br>
+            <br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Low Fidelity Wireframe</h2>
+                        <br>
+            <br>
+            <br>
+                        <h3> This is one page of a three page low fidelity wireframe I recently designed using Adobe Experience Design.</h3>
+                        <br>
+            <br>
+            <br>
+                        <h3> It features a wireframe for a landing page for a blog/news website.</h3>
+                        <br>
+            <br>
+            <br>
+                        <h3> Click here to see it in full. </h3>
+                                   <br>
+            <br>
+            <br>
+                        
+                    </div>
+                    <div class="pull-right col-md-6">
+                        <img src="Images/Front.png" class="helvete center-block pull-right">
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-md-6">
+                    <h2> High Fidelity Wireframe</h2>
+                      <br>
+            
+                        <h3> This is a high fidelity wireframe designed for a clothing store.</h3>
+                
+            <br>
+            <br>
+                        <h3> It also includes a low fidelity version under the details.</h3>
+                        <br>
+        
+                        <h3> Click here to see it in full. </h3>
+                                   <br>
+            <br>
+            <br>
+                        
+                    </div>
+                    <div class="col-md-6 pull-right">
+                    <img src="Images/Wireframes/Helvete.png" class="pull-right helvete">
+                    </div>
+                
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+
+        <style>
+            img {
+                cursor: pointer;
+                transition: -webkit-transform 0.1s ease
+            }
+
+            img:focus {
+                -webkit-transform: scale(2);
+                -ms-transform: scale(2);
+            }
+        </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var imgs = document.querySelectorAll('img');
+                Array.prototype.forEach.call(imgs, function(el, i) {
+                    if (el.tabIndex <= 0) el.tabIndex = 10000;
+                });
+            });
+        </script>
+    </div>
+
+
+</body>
+
+</html>
