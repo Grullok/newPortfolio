@@ -101,7 +101,7 @@
 
     .main-content {
         max-width: none;
-      margin: 0 auto !important;
+        margin: 0 auto !important;
 
     }
 
@@ -176,21 +176,21 @@ body {
 }
 
 #navAbout {
-    
+
     background-image: url(about.png);
     background-size: contain;
-    
+
 }
 
 #navTools {
-background-color:burlywood;
+    background-color: burlywood;
 }
 
 body {
     font-family: Verdana, sans-serif;
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    
+
 }
 
 h1 {
@@ -208,77 +208,75 @@ h2 {
     font-family: 'Play', sans-serif;
     color: floralwhite;
 }
+
 h3 {
     font-family: play;
     font-size: 2em;
     color: floralwhite;
 }
+
 #logo {
     max-height: 75%;
-        max-width: 75%;
+    max-width: 75%;
     margin-left: 7%;
 }
+
 .heading {
-    margin-top: 0,5em;
+    margin-top: 0, 5em;
     margin-bottom: 1em;
 }
-.icons {
-}
+
+.icons {}
 
 #hello {
     margin-top: 2.5em;
-    margin-bottom: 0,5em;
+    margin-bottom: 0, 5em;
     font-family: play;
     font-size: 5em;
 }
+
 #skillset {
     max-width: 75%;
     max-height: 75%;
 }
 
 #navUx {
-    background-color:darkseagreen
+    background-color: darkseagreen
 }
+
 .wrap1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-left: 6%;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  /* repeat = as many times as you can fit */
-  /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
-  /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
-  grid-gap: 10px;
+    grid-gap: 10px;
 }
 
 .wrap2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* repeat = as many times as you can fit */
-  /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
-  /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
-  grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    grid-gap: 10px;
     margin-left: 10%;
-    
- 
-  }
+
+
+}
 
 .wrap3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  /* repeat = as many times as you can fit */
-  /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
-  /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
-  grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 10px;
     margin-left: 13%;
-  }
+}
 
 
 .uxicon {
     height: 75%;
     width: 75%;
 }
+
 .uxText {
     display: inline;
     margin: 0 auto;
@@ -287,7 +285,7 @@ h3 {
 }
 
 #navDesign {
-    background-color:cadetblue;
+    background-color: cadetblue;
 }
 
 .desText {
@@ -297,9 +295,11 @@ h3 {
 #navCode {
     background-color: black;
 }
+
 #navContact {
     background-color: crimson;
-} 
+}
+
 #UXDes {
     font-family: Play;
 }
@@ -308,31 +308,34 @@ h3 {
     font-family: Play;
     font-size: 4em;
 }
+
 #offers {
     margin-bottom: 3em;
 }
+
 .uxicon {
     border-radius: 30px;
-    background:#eee;
-    text-decoration:none;
-    color:#333;
-    font-family:Arial, sans-serif;
-    font-size:11px;
-    font-weight:bold;
-    padding:5px 7px;
-    border:5px solid #aaa;
-    cursor:default;
+    background: #eee;
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 7px;
+    border: 5px solid #aaa;
+    cursor: default;
 }
 
 .uxicon:hover {
-    background-color:#f2f2f2;
-    border-color:#888;
-    box-shadow:0 0 50px black;
+    background-color: #f2f2f2;
+    border-color: #888;
+    box-shadow: 0 0 50px black;
 }
 
 .uxicon:active {
-    height:50%;
+    height: 50%;
 }
+
 .example {
     margin-top: 2em;
 }
