@@ -2,13 +2,12 @@
 <html>
 <script src="https://use.fontawesome.com/7d66257d29.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-
 <link href="https://fonts.googleapis.com/css?family=Lobster|Play|Raleway" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="index.css" />
 <script type='text/javascript' src="index.js"></script>
+
 <head>
     <title> Robert Ginter Portfolio </title>
 </head>
@@ -18,9 +17,7 @@
         <div class="row">
             <div id="sidebar">
                 <div class="sidebar-left">
-
-                    <img src="logo-mini.png">
-
+                    <img src="logo-mini.png" id="logo">
                     <div class="sidebar-links">
                         <a class="link-blue" href="#navAbout"><i class="fa fa-info-circle"></i>About</a>
                         <a class="link-red" href="#navTools"><i class="fa fa-wrench"></i>Skillset</a>
@@ -46,35 +43,25 @@
                         <h1 class="text-center heading">Skillset</h1>
                         <h3> These are the design programs and development tools I mostly use.</h3>
                         <div class="wrap1">
-                            <div>
-                                <img src="Icons/tools2/icon1.png">
-                            </div>
-                            <div>
-                                <img src="Icons/tools2/icon4.png">
-                            </div>
-                            <div>
-                                <img src="Icons/tools2/icon3.png">
-                            </div>
-                            <div>
-                                <img src="Icons/tools2/icon5.png">
-                            </div>
-                            <div>
-                                <img src="Icons/tools2/icon2.png">
-                            </div>
-                            <div>
-                                <img src="Icons/tools2/icon6.png">
-                            </div>
-                            <div>
-                                <img src="Icons/tools2/icon7.png">
-                            </div>
-                            <div>
-                                <img src="Icons/tools2/icon8.png">
-                            </div>
-                            <div>
-                                <img src="Icons/tools2/icon9.png">
-                            </div>
+
+                            <img src="Icons/tools2/icon1.png">
+
+                            <img src="Icons/tools2/icon4.png">
+                            <img src="Icons/tools2/icon3.png">
+
+                            <img src="Icons/tools2/icon5.png">
+
+                            <img src="Icons/tools2/icon2.png">
+
+                            <img src="Icons/tools2/icon6.png">
+
+                            <img src="Icons/tools2/icon7.png">
+
+                            <img src="Icons/tools2/icon8.png">
+
+                            <img src="Icons/tools2/icon9.png">
+
                         </div>
-                 
                     </div>
                     <div class="container-fluid box" id="navUx">
                         <h1 class="text-center heading">User Experience design</h1>
@@ -105,15 +92,13 @@
                                 <h3 class="uxText text-center"> Moodboards </h3>
                             </div>
                         </div>
-       <h3 class="text-center example"> (Click on the buttons to see specific examples.)</h3>
+                        <h3 class="text-center example"> (Click on the buttons to see specific examples.)</h3>
 
                     </div>
                     <div class="container-fluid box" id="navDesign">
                         <h1 class="text-center heading">Graphic design</h1>
                         <h2 class="text-center"> I have done some graphic design in the past as well.</h2>
-                        <br>
-                        <br>
-                        <br>
+                        
                         <div class="wrap3">
                             <div class="designicon">
                                 <img src="Icons/Done/graphic%20design.png" class="uxicon">
@@ -124,14 +109,11 @@
                                 <h3 class="desText text-center"> Logo design </h3>
                             </div>
                         </div>
-                               <h3 class="text-center examples"> (Click on the buttons to see specific examples.)</h3>
+                        <h3 class="text-center example"> (Click on the buttons to see specific examples.)</h3>
                     </div>
                     <div class="container-fluid box" id="navCode">
                         <h1 class="text-center heading">Front-end development</h1>
                         <h2 class="text-center"> I also dabble in front-end development</h2>
-                        <br>
-                        <br>
-                        <br>
                         <div class="wrap3">
                             <div class="designicon">
                                 <img src="Icons/Done/code2.png" class="uxicon">
@@ -142,20 +124,19 @@
                                 <h3 class="desText text-center"> Project 2 </h3>
                             </div>
                         </div>
-                               <h3 class="text-center examples"> (Click on the buttons to see specific examples.)</h3>
+                        <h3 class="text-center example"> (Click on the buttons to see specific examples.)</h3>
                     </div>
                 </div>
                 <div class="container-fluid box" id="navContact">
                     <h1 class="text-center heading">Contact</h1>
                     <h2 class='text-center' id="offers"> If you have any questions or offers, please contact me via:</h2>
-                   
+
                     <h2> <i class="fa fa-envelope" aria-hidden="true"></i> Email: Robert.Ginter@Outlook.com</h2>
                     <h2> <i class="fa fa-phone" aria-hidden="true"></i> Phone: +372-5284550</h2>
                 </div>
             </div>
         </div>
     </div>
-
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
         $(function() {
@@ -171,18 +152,18 @@
         });
     </script>
     <script>
-    var text = ["UX DESIGN", "UI DESIGN", "GRAPHIC DESIGN", "FRONT-END DEVELOPMENT", "ACCESSIBILTY"];
-var i = 0;
-var elem = document.getElementById("animationText");
-setInterval(change, 2500);
+        var text = ["UX DESIGN", "UI DESIGN", "GRAPHIC DESIGN", "FRONT-END DEVELOPMENT", "ACCESSIBILTY"];
+        var i = 0;
+        var elem = document.getElementById("animationText");
+        setInterval(change, 2500);
 
-function change() {
-  elem.innerHTML = text[i];
-  i++;
-  if (i >= text.length) {
-    i = 0;
-  }
-};
+        function change() {
+            elem.innerHTML = text[i];
+            i++;
+            if (i >= text.length) {
+                i = 0;
+            }
+        };
     </script>
 </body>
 

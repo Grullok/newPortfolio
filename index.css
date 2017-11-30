@@ -3,11 +3,7 @@
     margin-left: 12%;
 
 }
-h3 {
-    font-family: play;
-    font-size: 3em;
-    color: floralwhite;
-}
+
 
 .sidebar-left {
     font-family: Arial, Helvetica, sans-serif;
@@ -20,23 +16,6 @@ h3 {
     padding: 20px 0;
 }
 
-.sidebar-left a.company-logo {
-    display: block;
-    text-decoration: none;
-    font-family: Cookie, cursive;
-    width: 76px;
-    height: 76px;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-    color: #ffffff;
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 2.6;
-    border-radius: 50%;
-    background-color: #181a1b;
-    margin-bottom: 2em;
-}
 
 .sidebar-left .sidebar-links {
     margin: 20px auto;
@@ -46,7 +25,7 @@ h3 {
     display: block;
     text-decoration: none;
     margin: 0 auto 5px auto;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: #35393e;
     text-align: center;
     color: #b3bcc5;
@@ -147,9 +126,6 @@ h3 {
         border-top-width: 2px;
         border-top-style: solid;
     }
-#skillset {
-        max-width:450px;
-    }
 }
 
 
@@ -183,12 +159,6 @@ h3 {
         width: 20px;
         margin: 0 20px 0 0;
         vertical-align: middle;
-    }
-    .main-content {
-        margin: 0 auto !important;
-    }
-    #skillset {
-        max-width:450px;
     }
 }
 
@@ -224,8 +194,7 @@ body {
 }
 
 h1 {
-    font-size: 80px;
-    ;
+    font-size: 60px;
     padding-left: 60px;
     font-family: 'Lobster', cursive;
     color: floralwhite;
@@ -239,7 +208,16 @@ h2 {
     font-family: 'Play', sans-serif;
     color: floralwhite;
 }
-
+h3 {
+    font-family: play;
+    font-size: 2em;
+    color: floralwhite;
+}
+#logo {
+    max-height: 75%;
+        max-width: 75%;
+    margin-left: 7%;
+}
 .heading {
     margin-top: 0,5em;
     margin-bottom: 1em;
@@ -272,24 +250,10 @@ h2 {
   grid-gap: 10px;
 }
 
-.letter {
-  background-color: #0069b3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  font-size: 70px;
-  color: white;
-  line-height: 1;
-  font-family: 'hobeaux-rococeaux-background', Helvetica;
-  font-weight: 200;
-  cursor: pointer;
-  transition: all .3s ease;
-}
 .wrap2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* repeat = as many times as you can fit */
   /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
   /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
@@ -339,14 +303,10 @@ h2 {
 #UXDes {
     font-family: Play;
 }
-.examples {
-    margin-top: 2em;
-}
-.example {
-    margin-top: 1em;
-}
+
 #animationText {
     font-family: Play;
+    font-size: 4em;
 }
 #offers {
     margin-bottom: 3em;
@@ -372,4 +332,7 @@ h2 {
 
 .uxicon:active {
     height:50%;
+}
+.example {
+    margin-top: 2em;
 }
