@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script type='text/javascript' src="portfolio.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/7d66257d29.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" type = "text/css" href = "portfolio.css" />
+<title> Robert Ginter's portfolio </title>
+</head>
+<body>
+<div id="about">
+<h1 id="hello"> Hello! </h1>
+    <h1> My name is Robert</h1>
+    <h2 class="pull-left">I have been working as a freelance designer, specifically in designing interfaces and logos for use on the internet.</h2>
+</div>
+    <div id="skills">
+    <h1 id="skillset"> Skillset </h1>
+        <h2> I have multiple years of experience with creating multimedia with Adobe Photoshop and Illustrator, as well as creating interface mockups using the design prototyping platform InVision.</h2>
+    </div>
+    <div id="Rimi">  
+        <h1 id="examples"> Examples of website mockups </h1>
+        <div class="row">
+            <h3 class="col-md-4 h3pad"> Rimi is an Estonian grocery store with a mobile website that I found to be somewhat difficult to use and generally not very accessible on mobile devices.
+            <br>
+            The buttons were somewhat small and confusingly placed and there was quite a lot of unused screen space, whilst the rest of the design was somewhat tightly packed.</h3>
+        <iframe width="438" height="930" src="https://invis.io/GKD3WZE8Z" frameborder="0" allowfullscreen class="col-md-4"></iframe>
+            <h3 class="col-md-4 h3pad"> Thus I attempted to try and design a more accessible and aesthetically pleasing version of it using Adobe Photoshop, Illustrator and InVision.
+            <br>
+            Whilst upholding to their general design aspects, I tried to use the space more efficiently and generally make navigating the website achievable without great effort.
+            </h3>
+        </div>
+        </div>
+    <div id="olea">
+        <h1 id="oleat"> Desktop mockup</h1>
+        <iframe src=" https://invis.io/KQD3AHBVG" width="1080" height="480" frameborder="0" id="oleaweb" class="text-center"></iframe>
+           
+<h3> Besides mobile web design, desktop websites are just as important. I designed the website and logo for a fictional restaurant using Adobe Photoshop, Illustrator and InVision. 
+                <br>
+                I attempted to give it a very fluid and free flowing interface, trying to keep things simple yet appealing.
+            </h3>
+    </div>
+    <div id="logos">
+        <h1> Besides web design I also design logos and illustrations.</h1>
+        <div id="LogoBox">
+             </div>
+        
+<div class="row container-fluid">
+  
+  
+    <div class="column">
+    <img src="logos/DC_vectorized.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="logos/Delfi-Rounded.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="logos/logo.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="logos/Wiki%20Viewer.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+      
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+ 
+   
+      
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="logos/DC_vectorized.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="logos/Delfi-Rounded.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="logos/logo.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="logos/Wiki%20Viewer.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="logos/DC_vectorized.png" style="width:100%" onclick="currentSlide(1)" alt="Fancy chairs">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="logos/Delfi-Rounded.png" style="width:100%" onclick="currentSlide(2)" alt="Chefs in action">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="logos/logo.png" style="width:100%" onclick="currentSlide(3)" alt="Waiter">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="logos/Wiki%20Viewer.png" style="width:100%" onclick="currentSlide(4)" alt="Seating area">
+    </div>
+  </div>
+</div>
+        </div>
+      
+    </div>
+    </body>
+</html>
