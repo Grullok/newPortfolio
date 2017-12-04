@@ -290,6 +290,7 @@ h3 {
 
 .desText {
     margin-right: 25%;
+    display: block;
 }
 
 #navCode {
